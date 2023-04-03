@@ -1,0 +1,84 @@
+.Navbar .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.Navbar .nav-link svg {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.Navbar .nav-link span {
+  font-size: 1rem;
+}
+
+
+
+
+@media (max-width: 991.98px) {
+  .Navbar .nav-link {
+    display: block;
+    padding: 1rem 0;
+  }
+
+  .Navbar .nav-link p {
+    display: none;
+  }
+
+  .Navbar .nav-link svg {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .Navbar .nav-link span {
+    display: block;
+  }
+}
+
+.iconlar {
+  transition: all .3s ease-in-out;
+  margin-top: -1rem;
+}
+
+@media (max-width: 480px) {
+  .iconlar {
+    transition: all .3s ease-in-out;
+    margin-top: 0.01rem;
+  }
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.Navbar {
+  background: linear-gradient(to right, #00bfff, #8a2be2);
+  background-size: 600% 100%;
+  animation: gradient 20s ease-in-out infinite;
+}
+
+.nav-yazi {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.Navbar .nav-link:hover {
+  background: linear-gradient(to right, #00bfff, #8a2be2);
+  border-radius: 0.5rem;
+}
