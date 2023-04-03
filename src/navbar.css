@@ -41,7 +41,7 @@
   margin-top: -1rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   .iconlar {
     transition: all .3s ease-in-out;
     margin-top: 0.01rem;
